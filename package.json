@@ -1,0 +1,32 @@
+{
+  "name": "assignment-1-node-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shreya4390/assignment-1-node-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shreya4390/assignment-1-node-/issues"
+  },
+  "homepage": "https://github.com/Shreya4390/assignment-1-node-#readme",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "async": "^3.2.3",
+    "nodemon": "^2.0.15",
+    "readline": "^1.3.0"
+  },
+  "dependencies": {
+    
+  }
+}

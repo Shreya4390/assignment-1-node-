@@ -1,0 +1,23 @@
+Day 1 - Assignment
+-----------------------------------------------
+Subject: node NodeJS_Basics_Training_Day_1_Assignment.js
+-----------------------------------------------
+Fellas,
+
+There is a famous saying: Work hard, and you'll enjoy the fruits of your labor.
+
+It's time you should enjoy those hardships by solving some problem statements.
+
+
+Problem 1: Create a calculator to perform basic arithmetic operations (+, -, * , /). You are expected to take input from the console interactively.
+
+Problem 2: Download required files from gist
+jobs.json: Provides a list of job descriptions.
+technologies.json: Provides a list of technologies.
+sample_expected_output.txt: Sample output of your code.
+Your task is to tag each job from jobs.json against the technologies list provided in technologies.json.
+Expected Output
+It should be an array of jobs(with all original details) along with tags and the timestamp of processing that record.
+Fields of each record: company, type, description, tags, processing_timestamp
+Output filename syntax: ${timestamp}_response.json
+Sample filename: 1581921103583_response.json
