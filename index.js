@@ -25,16 +25,14 @@ async function newFunction() {
             "processing_timestamp": Math.floor(new Date().getTime() / 1000)
           })
         });
-        console.log(typeof arrayData)
-        fs.appendFile('./sample_expected_output.txt ', JSON.stringify(arrayData), 'utf8',
-
+        // fs.appendFile('./sample_expected_output.txt', JSON.stringify(arrayData), 'utf8',
+        fs.appendFile('./'+Math.floor(new Date().getTime() / 1000)+'.txt', JSON.stringify(arrayData), 'utf8',
           // Callback function
           function (err) {
             if (err) {
               throw err;
             }
-            // If data
-
+            // file created 
             console.log("Data is appended to file successfully.")
           });
       })
