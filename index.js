@@ -26,7 +26,7 @@ async function newFunction() {
           })
         });
         // fs.appendFile('./sample_expected_output.txt', JSON.stringify(arrayData), 'utf8',
-        fs.appendFile('./'+Math.floor(new Date().getTime() / 1000)+'.txt', JSON.stringify(arrayData), 'utf8',
+        fs.appendFile('./'+Math.floor(new Date().getTime() / 1000)+'.json', JSON.stringify(arrayData), 'utf8',
           // Callback function
           function (err) {
             if (err) {
